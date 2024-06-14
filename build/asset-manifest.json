@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b72933fc.css",
+    "main.js": "/static/js/main.8336db30.js",
+    "static/js/453.d11ab76c.chunk.js": "/static/js/453.d11ab76c.chunk.js",
+    "static/media/zelle-icon.svg": "/static/media/zelle-icon.8cd583ed50ee59743c29588e1408135b.svg",
+    "static/media/cashapp-icon.svg": "/static/media/cashapp-icon.838f9a9150e92b72f88e8bcede27a85d.svg",
+    "index.html": "/index.html",
+    "main.b72933fc.css.map": "/static/css/main.b72933fc.css.map",
+    "main.8336db30.js.map": "/static/js/main.8336db30.js.map",
+    "453.d11ab76c.chunk.js.map": "/static/js/453.d11ab76c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b72933fc.css",
+    "static/js/main.8336db30.js"
+  ]
+}
