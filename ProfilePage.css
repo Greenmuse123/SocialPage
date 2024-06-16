@@ -1,0 +1,96 @@
+:root {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --link-color: #1db954;
+    --link-hover-color: #1ed760;
+    --icon-color: #ffffff;
+    --button-background: #006400; /* Dark green background for buttons */
+    --button-hover-background: #008000; /* Slightly brighter dark green for button hover */
+    --button-text-color: #ffffff;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profilePic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+  
+  .linksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .link {
+    margin: 10px 0;
+    text-decoration: none;
+    background-color: var(--button-background);
+    color: var(--button-text-color);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 50px;
+    width: 80%;
+    max-width: 300px;
+    transition: background-color 0.3s;
+    color:#121212;
+    
+  }
+  
+  .link:hover {
+    background-color: var(--button-hover-background);
+  }
+  
+  .icon {
+    margin-right: 8px;
+    width: 58px;  /* For SVG icons */
+    height: 24px; /* For SVG icons */
+    color: var(--icon-color);
+  }
+  
+  /* Mobile optimization */
+  @media (max-width: 600px) {
+    .profilePic {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .description {
+      font-size: 16px;
+    }
+  
+    .link {
+      font-size: 18px;
+      padding: 12px;
+      width: 90%;
+      max-width: none;
+    }
+  
+    .icon {
+      width: 58px;  /* For SVG icons */
+      height: 50px; /* For SVG icons */
+    }
+  }
+  
